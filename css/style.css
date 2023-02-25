@@ -1,0 +1,16 @@
+body {
+  background-color: whitesmoke;
+  font-family: Segoe UI;
+}
+.title{
+  background-color:rgb(7, 33, 69);
+}
+h1 {
+  color:white;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.objetivos-card{
+  display: flex;
+}
