@@ -94,3 +94,21 @@ footer {
   text-align: center;
   background-color: green;
 }
+
+aside audio {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+aside video {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+img:hover {
+  border-radius: 20px;
+}
+
+aside a:hover {
+  color: blue;
+}
