@@ -1,6 +1,5 @@
 /*top*/
 #contenedor {
-  display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -26,12 +25,9 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.cards {
-  display: flex;
-  float: left;
-  gap: 16px;
-}
-
-.goal-body {
-  padding-left: 0;
+/* mision, vision , valores */
+.flexbox-container {
+  height: 800px;
+  flex-direction: row;
+  justify-content: center;
 }
