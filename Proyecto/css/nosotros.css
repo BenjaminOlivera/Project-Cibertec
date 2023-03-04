@@ -187,3 +187,8 @@ img {
 .footer .fa-heart {
   color: #d23333;
 }
+
+.footer-text p {
+  float: left;
+  padding-right: 100px;
+}
