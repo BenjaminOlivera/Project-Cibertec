@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Datos básicos</legend>
+        Nombre<br />
+        <input type="text" name="nombre" required /><br /><br />Descripción
+        <br />
+        <textarea rows="10" cols="30" name="descripcion" required></textarea
+        ><br /><br />
+        foto <input type="file" name="foto" /><br /><br />
+        <input type="checkbox" name="partidad" />Partida
+        <input type="checkbox" name="pago" />Pago
+      </fieldset>
+      <fieldset>
+        <legend>Datos económicos</legend>
+        Precio
+        <input type="text" name="nombre" size="10" required /> &ensp;&ensp;
+        Impuestos
+        <select name="impuestos">
+          <option>4%</option>
+          <option>7%</option>
+          <option>16%</option>
+          <option>25%</option>
+        </select>
+        <br /><br />
+        Promoción <br />
+        <input type="radio" name="promocion" />Ninguno <br />
+        <input type="radio" name="promocion" />Transporte gratuito <br />
+        <input type="radio" name="promocion" />Descuento 5% <br />
+        <input type="submit" value="Procesar" />
+        <input type="reset" value="Nuevo" />
+      </fieldset>
+    </form>
+  </body>
+</html>
