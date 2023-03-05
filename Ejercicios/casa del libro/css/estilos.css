@@ -83,7 +83,7 @@ section figure img {
   margin: 10px auto;
   display: block;
 }
-section figure figcaption {
+section .description-card {
   margin: 10px;
   text-align: center;
 }
