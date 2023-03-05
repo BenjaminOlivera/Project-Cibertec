@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 80%;
+  margin: 30px auto 30px auto;
+}
+
+.header {
+  max-width: 1400px;
+  display: flex;
+}
+.header img {
+  width: 100%;
+  vertical-align: bottom;
+}
+header h1 {
+  margin-top: 0%;
+  text-align: center;
+}
+nav {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(126, 184, 126);
+}
+
+a {
+  text-decoration: none;
+}
