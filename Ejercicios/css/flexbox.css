@@ -1,6 +1,9 @@
 .container {
-  width: 600px;
+  width: 800px;
   display: flex;
+  /*flex-wrap: wrap; */
+  /*justify-content: end;*/ /*alinea derecha*/
+  justify-content: center;
 }
 .container {
   background-color: #e07d1d;
@@ -11,20 +14,25 @@
 .item1 {
   background-color: #2df5ec;
   padding: 10px;
+  margin: 20px;
   border-radius: 8px;
 }
 .item2 {
   background-color: #0563f7;
   padding: 10px;
+  margin: 20px;
   border-radius: 8px;
 }
 .item3 {
   background-color: #f705bb;
   padding: 10px;
+  margin: 20px;
+
   border-radius: 8px;
 }
 .item4 {
   background-color: #e0d007;
   padding: 10px;
+  margin: 20px;
   border-radius: 8px;
 }
