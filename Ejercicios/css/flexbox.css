@@ -3,7 +3,8 @@
   display: flex;
   /*flex-wrap: wrap; */
   /*justify-content: end;*/ /*alinea derecha*/
-  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .container {
   background-color: #e07d1d;
