@@ -3,7 +3,7 @@
   display: flex;
   /*flex-wrap: wrap; */
   /*justify-content: end;*/ /*alinea derecha*/
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   justify-content: space-evenly;
 }
 .container {
@@ -36,4 +36,25 @@
   padding: 10px;
   margin: 20px;
   border-radius: 8px;
+}
+
+/*cross axis*/
+.crossaxis {
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  width: 800px;
+  height: 200px;
+  background-color: cadetblue;
+  align-items: stretch;
+}
+.item5,
+.item6,
+.item7,
+.item8 {
+  background-color: brown;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  color: white;
 }
