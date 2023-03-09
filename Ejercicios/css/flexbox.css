@@ -41,7 +41,7 @@
 /*cross axis*/
 .crossaxis {
   padding: 0;
-  margin: 10px;
+  margin: 0 auto;
 }
 .crossaxis {
   margin-top: 40px;
@@ -57,10 +57,25 @@
 */
 }
 
+/*
+.crossaxis {
+  propiedad align content, necesita de elementos desbordados fuera del contenedor y flex-flow:wrap o flex-flow:reverse 
+  flex-flow: wrap;
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: stretch;
+  align-content: space-between;
+  align-content: space-around;
+} 
+*/
+
 .item5,
 .item6,
 .item7,
-.item8 {
+.item8,
+.item9,
+.item10 {
   background-color: brown;
   padding: 10px;
   margin: 20px;
