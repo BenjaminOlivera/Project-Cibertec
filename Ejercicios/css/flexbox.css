@@ -216,3 +216,23 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   height: 26px;
   width: 100px;
 }
+/*propiedad flex-basis*/
+.basis {
+  background-color: rgb(32, 190, 190);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+}
+.item23,
+.item24,
+.item25,
+.item26 {
+  margin: 10px;
+  background-color: #cc63b2;
+  border-radius: 5px;
+}
+.item24 {
+  flex-basis: 150px;
+}
