@@ -103,9 +103,11 @@
   width: 600px;
   height: 200px;
   border-radius: 10px;
-
   display: flex;
+  flex-flow: wrap;
   margin: 0 auto;
+  margin-top: 30px;
+  align-content: space-around;
   background-color: #8eacdc;
 }
 .item11,
@@ -117,4 +119,57 @@
   margin: 20px;
   border-radius: 8px;
   color: white;
+}
+.item11 {
+  order: 2;
+}
+.item12 {
+  order: 1;
+}
+.item13 {
+  order: 0;
+}
+.item14 {
+  oder: 3;
+}
+
+/*propiedad grow
+Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
+.flex-grow {
+  width: 800px;
+  background-color: #e07d1d;
+  border-radius: 10px;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+}
+.item15,
+.item16,
+.item17,
+.item18 {
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+}
+.item15 {
+  order: 3;
+  height: 30px;
+  flex-grow: 2;
+}
+.item16 {
+  order: 1;
+  height: 60px;
+  flex-grow: 2;
+}
+.item17 {
+  order: 0;
+  height: 40px;
+  flex-grow: 2;
+}
+.item18 {
+  order: 2;
+  height: 33;
+  flex-grow: 2;
 }
