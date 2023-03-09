@@ -1,9 +1,9 @@
 .container {
   width: 800px;
   display: flex;
-  /*flex-wrap: wrap; */
-  /*justify-content: end;*/ /*alinea derecha*/
-  /*justify-content: space-between;*/
+  /*flex-wrap: wrap; 
+  justify-content: end;alinea derecha
+  justify-content: space-between;*/
   justify-content: space-evenly;
 }
 .container {
@@ -104,7 +104,7 @@
   height: 200px;
   border-radius: 10px;
   display: flex;
-  flex-flow: wrap;
+  flex-direction: row;
   margin: 0 auto;
   margin-top: 30px;
   align-content: space-around;
@@ -140,6 +140,7 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   background-color: #e07d1d;
   border-radius: 10px;
   margin: 0 auto;
+  margin-top: 20px;
   height: 200px;
   display: flex;
   flex-flow: wrap;
@@ -172,4 +173,46 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   order: 2;
   height: 33;
   flex-grow: 2;
+}
+
+/*Propiedad Shrink*/
+.shrink {
+  width: 490px;
+  height: 200px;
+  background-color: #8eacdc;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.item19,
+.item20,
+.item21,
+.item22 {
+  background-color: #ded99d;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  flex-shrink: 1;
+}
+.item19 {
+  width: 50px;
+  height: 40px;
+  flex-shrink: 1;
+}
+.item20 {
+  flex-shrink: 2;
+  width: 60px;
+  height: 60px;
+}
+.item21 {
+  flex-shrink: 5;
+  height: 40px;
+  width: 80px;
+}
+.item22 {
+  flex-shrink: 3;
+  height: 26px;
+  width: 100px;
 }
