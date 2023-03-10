@@ -243,3 +243,29 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
 .item26 {
   flex-basis: 800px;
 }
+
+/*propiedad self*/
+.self {
+  width: 700px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  background-color: #8eacdc;
+}
+.item27,
+.item28,
+.item29,
+.item30 {
+  background-color: #e163d0;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 8px;
+}
+.item29 {
+  align-self: flex-end;
+}
