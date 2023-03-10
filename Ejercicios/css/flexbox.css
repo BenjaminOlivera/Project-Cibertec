@@ -222,7 +222,7 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 30px;
-  width: 500px;
+  width: 600px;
   height: 50px;
   display: flex;
 }
@@ -236,4 +236,10 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
 }
 .item24 {
   flex-basis: 150px;
+}
+.item25 {
+  flex-basis: 100px;
+}
+.item26 {
+  flex-basis: 800px;
 }
