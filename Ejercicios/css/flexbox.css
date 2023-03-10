@@ -223,6 +223,7 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   margin: 0 auto;
   margin-top: 30px;
   width: 500px;
+  height: 50px;
   display: flex;
 }
 .item23,
