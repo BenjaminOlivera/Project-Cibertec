@@ -253,6 +253,7 @@ Le puse diferentes alturas a los elementos pero estos ocuan la misma distancia*/
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin: 0 auto;
   margin-top: 40px;
   background-color: #8eacdc;
 }
