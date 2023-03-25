@@ -12,16 +12,17 @@ body {
 .header {
   background-color: #1b3039;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   height: 110px;
   padding: 5px 10px;
 }
 .header .logo {
   cursor: pointer;
+  margin-right: auto;
 }
 .header .logo img {
-  height: 70px;
+  height: 40px;
   width: auto;
   transition: all 0.3s;
 }
@@ -51,6 +52,7 @@ body {
 }
 
 .header .btn button {
+  margin-left: 20px;
   font-weight: 700;
   color: #1b3039;
   padding: 9px 25px;
