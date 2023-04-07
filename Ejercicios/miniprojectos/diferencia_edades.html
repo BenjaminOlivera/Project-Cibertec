@@ -9,10 +9,10 @@
   function imprimir(frase) {
     document.write(frase);
   }
-  function imc(weight, height) {
+  function calcularImc(weight, height, name) {
     saltarLinea();
     var imc = weight / (height * height);
-    imprimir("El imc calculado es: " + imc);
+    imprimir("El imc  calculado de " + name + " es: " + Math.round(imc));
   }
-  imc(80, 1.75);
+  calcularImc(80, 1.75, "Felipe");
 </script>
