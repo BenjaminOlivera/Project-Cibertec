@@ -9,10 +9,25 @@
   function imprimir(frase) {
     document.write(frase);
   }
-  function calcularImc(weight, height, name) {
+
+  function calcularImc1(weight1, height1, name1) {
     saltarLinea();
-    var imc = weight / (height * height);
-    imprimir("El imc  calculado de " + name + " es: " + Math.round(imc));
+    var imc1 = weight1 / (height1 * height1);
+    imprimir("El imc  calculado de " + name1 + " es: " + Math.round(imc1));
   }
-  calcularImc(80, 1.75, "Felipe");
+  function calcularImc2(weight2, height2, name2) {
+    saltarLinea();
+    var imc2 = weight2 / (height2 * height2);
+    imprimir("El imc  calculado de " + name2 + " es: " + Math.round(imc2));
+  }
+
+  function promedio(imc1, imc2) {
+    saltarLinea();
+    var promed = (imc1 + imc2) / 2;
+    imprimir("El promedio de ambos  es: " + promed);
+  }
+
+  calcularImc1(80, 1.75, "Felipe");
+  calcularImc2(60, 1.5, "Martha");
+  promedio(26, 27);
 </script>
