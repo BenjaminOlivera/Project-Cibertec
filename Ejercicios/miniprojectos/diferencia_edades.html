@@ -1,17 +1,18 @@
 <script>
-  //diferencia de edades
-  //variables : difAge, myAge,hisAge
-  //funcion
-  //imprimir
+  // funcion saltar lina
+  //funcion calculo imc
+  //funcion imprimir
   function saltarLinea() {
     document.write("<br>");
   }
-  var myAge = 31;
-  var hisAge = 27;
-  var difAge = myAge - hisAge;
+
   function imprimir(frase) {
-    saltarLinea();
-    document.write(frase + difAge);
+    document.write(frase);
   }
-  imprimir("Nuesta diferencia de edades es : ");
+  function imc(weight, height) {
+    saltarLinea();
+    var imc = weight / (height * height);
+    imprimir("El imc calculado es: " + imc);
+  }
+  imc(80, 1.75);
 </script>
