@@ -21,13 +21,13 @@
     //imprimir("El imc  calculado de " + name2 + " es: " + Math.round(imc2));
   }
   name1 = prompt("Escriba su nombre");
-  weight1 = prompt(name1 + " escriba su peso");
-  height1 = prompt(name1 + " escriba su altura");
+  weight1 = parseInt(prompt(name1, " escriba su peso"));
+  height1 = parseInt(prompt(name1, " escriba su altura"));
   name2 = prompt("Escriba su nombre");
-  weight2 = prompt(name2 + " escriba su peso");
-  height2 = prompt(name2 + " escriba su altura");
+  weight2 = parseInt(prompt(name2, " escriba su peso"));
+  height2 = parseInt(prompt(name2, " escriba su altura"));
   var calProm = (imc1 + imc2) / 2;
-  imprimir(name1 + " su imc es: " + imc1);
-  imprimir(name2 + " su imc es: " + imc2);
-  imprimir("El promedio ingresado de " + name1 + "y" + name2 + "es:" + calProm);
+  //imprimir(name1 + " su imc es: " + imc1);
+  //imprimir(name2 + " su imc es: " + imc2);
+  //imprimir("El promedio ingresado de " + name1 + "y" + name2 + "es:" + calProm);
 </script>

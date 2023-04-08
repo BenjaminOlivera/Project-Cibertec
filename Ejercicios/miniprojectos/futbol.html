@@ -1,0 +1,23 @@
+<script>
+  function saltarLinea() {
+    document.write("<br>");
+  }
+  function imprimir(frase) {
+    document.write(frase);
+    saltarLinea();
+  }
+  //aplicativo para goles
+  var goles = parseInt(prompt("Escriba el numero de goles:"));
+  var empates = parseInt(prompt("Escriba el numero de empates"));
+  var totalPuntos = goles * 3 + empates;
+  imprimir("Tu total de puntos es :" + totalPuntos);
+  if (totalPuntos > 28) {
+    document.write("El equipo esta mejor que el año pasado");
+  }
+  if (totalPuntos < 28) {
+    document.write("El equipo esta peor que el año pasado");
+  }
+  if (totalPuntos == 28) {
+    document.write("el equipo esta igual que el año pasado");
+  }
+</script>
