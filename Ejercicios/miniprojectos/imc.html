@@ -5,7 +5,50 @@
   function imprimir(frase) {
     document.write(frase);
   }
-  var peso = prompt("introduce tu peso");
-  var altura = prompt("introduce tu altura");
-  var imc = peso / (altura * altura);
+  function calcularImc(peso, altura) {
+    return peso / (altura * altura);
+  }
+  var nombre = prompt("introduce tu nombre");
+  var peso = prompt(nombre + " introduce tu peso");
+  var altura = prompt(nombre + " introduce tu altura");
+  var imcCalculado = calcularImc(peso, altura);
+  imprimir(nombre + " tu imc calculado es: " + Math.round(imcCalculado));
+  saltarLinea();
+  if (imcCalculado < 25) {
+    if (imcCalculado > 18) {
+      imprimir("Tienes peso normal");
+    }
+  }
+  if (imcCalculado < 18) {
+    imprimir("Bajo peso");
+  }
+  if (imcCalculado > 25) {
+    if (imcCalculado <= 27) {
+      saltarLinea();
+      imprimir("Sobre peso I");
+    }
+  }
+  if (imcCalculado > 27) {
+    if (imcCalculado <= 29) {
+      imprimir("Sobre peso II");
+    }
+  }
+  if (imcCalculado > 30) {
+    if (imcCalculado <= 35) {
+      imprimir("Obesidad I , CARE CHANCHO");
+    }
+  }
+  if (imcCalculado > 35) {
+    if (imcCalculado <= 40) {
+      imprimir("Obesidad II,DEJA DE TRAGAR");
+    }
+  }
+  if (imcCalculado > 40) {
+    if (imcCalculado <= 50) {
+      imprimir("OBESIDAD III  (MORBIDA)");
+    }
+  }
+  if (imcCalculado > 50) {
+    imprimir("ROMPE INODORO");
+  }
 </script>
