@@ -1,54 +1,92 @@
-<script>
-  function saltarLinea() {
-    document.write("<br>");
-  }
-  function imprimir(frase) {
-    document.write(frase);
-  }
-  function calcularImc(peso, altura) {
-    return peso / (altura * altura);
-  }
-  var nombre = prompt("introduce tu nombre");
-  var peso = prompt(nombre + " introduce tu peso");
-  var altura = prompt(nombre + " introduce tu altura");
-  var imcCalculado = calcularImc(peso, altura);
-  imprimir(nombre + " tu imc calculado es: " + Math.round(imcCalculado));
-  saltarLinea();
-  if (imcCalculado < 25) {
-    if (imcCalculado > 18) {
-      imprimir("Tienes peso normal");
-    }
-  }
-  if (imcCalculado < 18) {
-    imprimir("Bajo peso");
-  }
-  if (imcCalculado > 25) {
-    if (imcCalculado <= 27) {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+      <script>
+      function saltarLinea() {
+        document.write("<br>");
+      }
+      function imprimir(frase) {
+        document.write(frase);
+      }
+      function calcularImc(peso, altura) {
+        return peso / (altura * altura);
+      }
+      var nombre = prompt("introduce tu nombre");
+      var peso = prompt(nombre + " introduce tu peso");
+      var altura = prompt(nombre + " introduce tu altura");
+      var imcCalculado = calcularImc(peso, altura);
+      imprimir(nombre + " tu imc calculado es: " + Math.round(imcCalculado));
       saltarLinea();
-      imprimir("Sobre peso I");
-    }
-  }
-  if (imcCalculado > 27) {
-    if (imcCalculado <= 29) {
-      imprimir("Sobre peso II");
-    }
-  }
-  if (imcCalculado > 30) {
-    if (imcCalculado <= 35) {
-      imprimir("Obesidad I , CARE CHANCHO");
-    }
-  }
-  if (imcCalculado > 35) {
-    if (imcCalculado <= 40) {
-      imprimir("Obesidad II,DEJA DE TRAGAR");
-    }
-  }
-  if (imcCalculado > 40) {
-    if (imcCalculado <= 50) {
-      imprimir("OBESIDAD III  (MORBIDA)");
-    }
-  }
-  if (imcCalculado > 50) {
-    imprimir("ROMPE INODORO");
-  }
-</script>
+      if (imcCalculado < 25) {
+        if (imcCalculado > 18) {
+          imprimir("Tienes peso normal");
+        }
+      }
+      if (imcCalculado < 18) {
+        imprimir("Bajo peso");
+      }
+      if (imcCalculado > 25) {
+        if (imcCalculado <= 27) {
+          saltarLinea();
+          imprimir("Sobre peso I");
+        }
+      }
+      if (imcCalculado > 27) {
+        if (imcCalculado <= 29) {
+          imprimir("Sobre peso II");
+        }
+      }
+      if (imcCalculado > 30) {
+        if (imcCalculado <= 35) {
+          imprimir("Obesidad I , CARE CHANCHO");
+        }
+      }
+      if (imcCalculado > 35) {
+        if (imcCalculado <= 40) {
+          imprimir("Obesidad II,DEJA DE TRAGAR");
+        }
+      }
+      if (imcCalculado > 40) {
+        if (imcCalculado <= 50) {
+          imprimir("OBESIDAD III  (MORBIDA)");
+        }
+      }
+      if (imcCalculado > 50) {
+        imprimir("ROMPE INODORO");
+      }
+    </script>
+  -->
+
+    <!-- Licencia
+    <script>
+      var edad = parseInt(prompt("¿Cual es tu edad?"));
+      var tieneLicencia = prompt("¿Tiene licencia ?Responda Si o No");
+      if (edad >= 18 && tieneLicencia == "Si") {
+        document.write("Puede conducir");
+      } else {
+        document.write("No puede conducir");
+      }
+    </script>
+    -->
+    <h1>Juego Loteria</h1>
+    <script>
+      function sorteo(n) {
+        return Math.round(Math.random(n));
+      }
+      var numPensado = sorteo(10);
+      var numLansado = parseInt(prompt("Ingrese un numero del 0-10"));
+      if (numPensado == numLansado) {
+        document.write("Usted acerto la jugada");
+      } else {
+        document.write("Usted erró la jugada");
+      }
+    </script>
+  </body>
+</html>
