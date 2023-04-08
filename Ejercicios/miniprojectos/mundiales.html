@@ -1,6 +1,25 @@
+<h1>Año de mundiales</h1>
 <script>
   //MOSTRAR MUNDIALES
   //fecha limite
   //fecha del primer mundial 1930
   //el mundial se da cada cuatro años
+  //usar while para loop
+  function saltarLinea() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+  function imprimir(frase) {
+    document.write(frase);
+  }
+  var primerMundial = 1930;
+  var añoLimite = parseInt(prompt("Ingrese el año limite "));
+
+  while (añoLimite >= primerMundial) {
+    saltarLinea();
+    imprimir("Hubo mundial de la Fifa el año: " + primerMundial);
+
+    primerMundial = primerMundial + 4;
+  }
+  imprimir(fin);
 </script>
