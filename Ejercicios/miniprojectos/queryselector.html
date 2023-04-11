@@ -10,7 +10,7 @@
     <input />
     <button>Verifica si acertaste con el número ganador</button>
     <script>
-      var numSecret = 6;
+      var numSecret = Math.round(Math.random() * 10);
       var input = document.querySelector("input");
       input.focus();
 
