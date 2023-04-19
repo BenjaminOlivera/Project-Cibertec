@@ -1,6 +1,6 @@
 <meta charset="UTF-8" />
 
-<h1>Recetas de Armando</h1>
+<h1>Recetas de Benjamin</h1>
 
 <script>
   var ingredientes = [];
@@ -9,9 +9,12 @@
 
   while (contador <= cantidad) {
     var ingrediente = prompt("Informe el ingrediente " + contador);
-    ingredientes.push(ingrediente);
-    contador++;
-  }
 
+    for (itemAd = ingrediente; (itemAd = !ingredientes); contador++) {
+      ingredientes.push(ingrediente);
+      if itemAd
+    }
+  }
+  document.write(ingredientes);
   console.log(ingredientes);
 </script>
