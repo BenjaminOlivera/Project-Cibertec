@@ -1,18 +1,41 @@
 body {
-  background-color: gray;
+  background-color: #ffffff;
 }
+
 #banner {
   width: 100%;
 }
+.principal {
+  background: gray;
+  padding: 20px;
+}
+
 h1 {
   text-align: center;
 }
 p {
   text-align: center;
+  justify-content: center;
 }
 p em {
   color: red;
 }
+h2 {
+  text-align: center;
+}
 .diferenciales {
-  background: whitesmoke;
+  background: #ffffff;
+  padding: 30px;
+}
+.items {
+  font-style: italic;
+}
+ul {
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  margin-right: 15px;
+}
+.imgDiferenciales {
+  width: 50%;
 }
