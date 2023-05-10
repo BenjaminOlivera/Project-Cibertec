@@ -23,3 +23,11 @@ nav {
   top: 110px;
   right: 0;
 }
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+}
+.productos li {
+  display: inline-block;
+}
